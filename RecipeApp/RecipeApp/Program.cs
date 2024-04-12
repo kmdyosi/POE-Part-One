@@ -10,7 +10,8 @@ namespace RecipeApp
         public string Unit { get; set; } // Unit of measurement for the ingredient
     }
 
-    // Class to represent a step in a recipe
+    // Class to represent a step in a recipe 
+    
     class Step
     {
         public string Description { get; set; } // Description of the step
