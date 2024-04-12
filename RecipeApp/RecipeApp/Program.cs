@@ -103,6 +103,7 @@ namespace RecipeApp
         }
 
         // Method to clear the recipe (reset ingredients and steps)
+        
         public void ClearRecipe()
         {
             ingredients = new Ingredient[0];
