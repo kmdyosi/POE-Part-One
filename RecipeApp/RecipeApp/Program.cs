@@ -3,6 +3,7 @@
 namespace RecipeApp
 {
     // Class to represent an ingredient with name, quantity, and unit
+    
     class Ingredient
     {
         public string Name { get; set; } // Name of the ingredient
@@ -18,6 +19,7 @@ namespace RecipeApp
     }
 
     // Class to represent a recipe containing ingredients and steps
+    
     class Recipe
     {
         private Ingredient[] ingredients; // Array to store ingredients
