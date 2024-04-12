@@ -86,6 +86,7 @@ namespace RecipeApp
         }
 
         // Method to scale the recipe by a given factor
+        
         public void ScaleRecipe(double factor)
         {
             foreach (var ingredient in ingredients)
